@@ -1,68 +1,89 @@
-# --- Website Basics --- #
+############################
+# --- Basic Info --- #
+############################
+
 title: Ayume Milagres
 author: Ayume Milagres
-tagline: Data Analyst | Engineer | Curious Problem-Solver
 
+description: >-
+  Data analyst and engineer with a passion for translating complex data into actionable insights. Skilled in Python, R, SQL, and Power BI — this is my portfolio of projects and learning.
+
+############################
 # --- Navigation Bar --- #
+############################
+
 navbar-links:
   About Me: "aboutme"
   Projects: "projects"
+  Resume: "resume"
   Contact: "contact"
 
-# --- Profile Avatar --- #
-avatar: "/assets/img/avatar-icon.png"
+################
+# --- Avatar --- #
+################
+
+avatar: "/assets/img/avatar-icon.png"  # Replace with your photo if you’d like
 round-avatar: true
 
-# --- Social Links in Footer --- #
+#####################################
+# --- Social Media Footer Links --- #
+#####################################
+
 social-network-links:
   email: "ayumilagres@gmail.com"
   github: "ayumilagres"
-  linkedin: "your-linkedin-username"  # Replace with your actual LinkedIn username
+  linkedin: "in/ayumilagres"
+  rss: false
 
-# --- SEO and Sharing --- #
-rss-description: Portfolio site for Ayume Milagres
+rss-description: Portfolio website of Ayume Milagres
+
+###########################
+# --- Site Options --- #
+###########################
+
 share-links-active:
   twitter: false
   facebook: false
   linkedin: true
+
 url-pretty: "ayumilagres.github.io"
-
-# --- Display Settings --- #
 title-on-all-pages: true
-excerpt_length: 50
+excerpt_length: 30
 feed_show_excerpt: true
-feed_show_tags: true
-post_search: true
-edit_page_button: true
+feed_show_tags: false
+post_search: false
+edit_page_button: false
+navbar-var-length: false
 
-# --- Site Colors --- #
-page-col: "#FFFFFF"
-text-col: "#404040"
-link-col: "#008AFF"
-hover-col: "#0085A1"
-navbar-col: "#EAEAEA"
-navbar-text-col: "#404040"
-navbar-border-col: "#DDDDDD"
-footer-col: "#EAEAEA"
-footer-text-col: "#777777"
-footer-link-col: "#404040"
-footer-hover-col: "#0085A1"
+keywords: "Ayume Milagres, Data Analytics, Portfolio, Python, R, SQL, Business Analytics, Machine Learning, Power BI"
 
-# --- Date Format --- #
+######################################
+# --- Theme Colors --- #
+######################################
+
+page-col: "#ffffff"
+text-col: "#222222"
+link-col: "#0055a5"
+hover-col: "#003f7f"
+navbar-col: "#f8f8f8"
+navbar-text-col: "#333333"
+navbar-border-col: "#e7e7e7"
+footer-col: "#f8f8f8"
+footer-text-col: "#666666"
+footer-link-col: "#333333"
+footer-hover-col: "#0055a5"
+
+####################
+# --- Misc --- #
+####################
+
 date_format: "%B %-d, %Y"
+timezone: "America/Phoenix"
 
-# --- Jekyll & Plugins --- #
-timezone: "America/Sao_Paulo"
 markdown: kramdown
 highlighter: rouge
 permalink: /:year-:month-:day-:title/
 paginate: 5
-plugins:
-  - jekyll-paginate
-  - jekyll-sitemap
-
-kramdown:
-  input: GFM
 
 defaults:
   -
@@ -72,7 +93,7 @@ defaults:
     values:
       layout: "post"
       comments: false
-      social-share: true
+      social-share: false
   -
     scope:
       path: ""
@@ -80,11 +101,15 @@ defaults:
       layout: "page"
 
 exclude:
-  - CHANGELOG.md
-  - CNAME
+  - README.md
+  - LICENSE
   - Gemfile
   - Gemfile.lock
-  - LICENSE
-  - README.md
   - screenshot.png
   - docs/
+
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+
+
