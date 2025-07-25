@@ -28,4 +28,3 @@ Welcome to my portfolio of work. Here are a few examples of the data and analyti
 
 ---
 
-(You can update or expand this list later.)
