@@ -1,72 +1,114 @@
-/* Font: Playfair Display for elegance, Open Sans for readability */
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Open+Sans:wght@300;400;600&display=swap');
+/* Elegant Editorial Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Inter:wght@300;400;600&display=swap');
 
 body {
-  font-family: 'Open Sans', sans-serif;
-  background-color: #f9f7f4;
-  color: #2c2c2c;
+  font-family: 'Inter', sans-serif;
+  background-color: #fefdfb; /* soft off-white */
+  color: #2b2b2b;
   margin: 0;
   padding: 0;
+  font-size: 1rem;
+  line-height: 1.7;
 }
 
 h1, h2, h3 {
   font-family: 'Playfair Display', serif;
-  color: #3c2a1e;
-  margin-top: 1.5rem;
-  margin-bottom: 0.5rem;
+  color: #1f1f1f;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  line-height: 1.2;
 }
 
 h1 {
-  font-size: 2.4rem;
+  font-size: 2.2rem;
   font-weight: 700;
 }
 
 h2 {
-  font-size: 1.8rem;
-  font-weight: 500;
-}
-
-a {
-  color: #6f4e37;
-  text-decoration: none;
+  font-size: 1.5rem;
   font-weight: 600;
 }
 
-a:hover {
-  color: #a0522d;
-  text-decoration: underline;
+h3 {
+  font-size: 1.25rem;
+  font-weight: 500;
 }
 
-section {
-  max-width: 800px;
-  margin: 4rem auto;
-  padding: 2rem;
-  background-color: #ffffff;
-  box-shadow: 0 0 8px rgba(0, 0, 0, 0.03);
-  border-radius: 12px;
+p {
+  font-size: 1.05rem;
+  margin-bottom: 1.2rem;
+  color: #333333;
 }
 
-ul {
-  padding-left: 1.5rem;
-}
-
-li {
-  margin-bottom: 0.5rem;
-}
-
-/* Buttons and contact styling */
-.contact-info a {
-  display: inline-block;
-  margin-top: 1rem;
-  color: #6f4e37;
-  background-color: #f3e8dc;
-  padding: 0.4rem 0.8rem;
-  border-radius: 5px;
+a {
+  color: #c05c7e;  /* Rouje pink/rose tone */
+  text-decoration: none;
+  font-weight: 500;
+  border-bottom: 1px solid transparent;
   transition: all 0.2s ease;
 }
 
+a:hover {
+  color: #a14b6b;
+  border-bottom-color: #e9cdd6;
+}
+
+/* Centered white box layout */
+section {
+  max-width: 780px;
+  margin: 4rem auto;
+  padding: 3rem;
+  background-color: #ffffff;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.04);
+  border-radius: 16px;
+  border: 1px solid #f2f0ed;
+}
+
+/* Lists */
+ul {
+  padding-left: 1.5rem;
+  margin-top: 0.5rem;
+}
+
+li {
+  margin-bottom: 0.6rem;
+  color: #3a3a3a;
+}
+
+/* Contact Buttons – sleek and feminine */
+.contact-info a {
+  display: inline-block;
+  margin-top: 1rem;
+  color: #8b3f56;
+  background-color: #f7e9ed;
+  padding: 0.5rem 1.2rem;
+  border-radius: 999px;
+  font-weight: 500;
+  font-size: 0.95rem;
+  letter-spacing: 0.03em;
+  transition: all 0.3s ease;
+  box-shadow: 0 3px 8px rgba(197, 143, 157, 0.12);
+}
+
 .contact-info a:hover {
-  background-color: #e5d1c0;
+  background-color: #f0d8df;
+  color: #6f2d42;
+}
+
+/* Section spacing */
+section + section {
+  margin-top: 5rem;
+  padding-top: 4rem;
+  border-top: 1px solid #f0eae8;
+}
+
+/* Heading accent line (optional) */
+h2::after {
+  content: "";
+  display: block;
+  width: 40px;
+  border-bottom: 2px solid #eac6cf;
+  margin-top: 0.4rem;
 }
 
 
