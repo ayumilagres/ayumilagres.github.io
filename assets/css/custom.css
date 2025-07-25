@@ -1,91 +1,98 @@
-@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;600&display=swap');
+/* Import clean, modern fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Libre+Baskerville:wght@400;700&display=swap');
 
 body {
-  font-family: 'Public Sans', sans-serif;
-  background-color: #fdfcfb; /* Light, creamy background */
-  color: #2b2b2b;
+  font-family: 'Inter', sans-serif;
+  background-color: #faf8f6;
+  color: #1a1a1a;
   margin: 0;
   padding: 0;
-  line-height: 1.75;
-  font-size: 16px;
+  line-height: 1.7;
 }
 
-/* Typography */
+/* Headings: editorial and clean */
 h1, h2, h3 {
-  font-family: 'Public Sans', sans-serif;
-  color: #2c1e1e;
-  margin-top: 2rem;
-  margin-bottom: 1rem;
-  font-weight: 500;
-  letter-spacing: 0.3px;
+  font-family: 'Libre Baskerville', serif;
+  color: #2b2b2b;
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
 }
 
 h1 {
-  font-size: 2rem;
+  font-size: 2.2rem;
+  font-weight: 700;
 }
 
 h2 {
-  font-size: 1.4rem;
+  font-size: 1.5rem;
+  font-weight: 700;
 }
 
 h3 {
-  font-size: 1.15rem;
+  font-size: 1.25rem;
+  font-weight: 700;
 }
 
 a {
-  color: #8a4f52; /* Soft mauve */
+  color: #b3475f; /* subtle rose */
   text-decoration: none;
   font-weight: 500;
 }
 
 a:hover {
-  color: #682f32;
+  color: #8c2f45;
   text-decoration: underline;
 }
 
-/* White box layout */
-section {
-  max-width: 740px;
-  margin: 4rem auto;
-  padding: 3rem;
+/* Main layout container (the white box) */
+.intro-box {
+  max-width: 800px;
+  margin: 3rem auto;
+  padding: 2.5rem;
   background-color: #ffffff;
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.04);
-  border-radius: 18px;
+  border-radius: 14px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.04);
 }
 
-/* Lists */
+/* List styling */
 ul {
-  padding-left: 1.5rem;
+  padding-left: 1.4rem;
 }
 
 li {
-  margin-bottom: 0.6rem;
+  margin-bottom: 0.4rem;
 }
 
-/* Contact buttons */
+/* Contact buttons or links */
 .contact-info a {
   display: inline-block;
-  margin-top: 1.5rem;
-  color: #8a4f52;
-  background-color: #f8eae8;
-  padding: 0.45rem 1rem;
-  border-radius: 5px;
-  font-size: 0.92rem;
+  margin-top: 1rem;
+  color: #b3475f;
+  background-color: #f5eaea;
+  padding: 0.4rem 0.8rem;
+  border-radius: 6px;
   transition: all 0.3s ease;
 }
 
 .contact-info a:hover {
-  background-color: #eed6d4;
-  color: #682f32;
+  background-color: #ebd7d7;
+  color: #8c2f45;
 }
 
-/* Profile photo */
-img.profile {
-  max-width: 150px;
-  border-radius: 50%;
-  margin: 2rem auto 1rem auto;
-  display: block;
-  box-shadow: 0 6px 14px rgba(0,0,0,0.05);
+/* Responsive Typography Tweaks */
+@media screen and (max-width: 600px) {
+  h1 {
+    font-size: 1.8rem;
+  }
+
+  h2 {
+    font-size: 1.4rem;
+  }
+
+  .intro-box {
+    margin: 2rem 1rem;
+    padding: 1.5rem;
+  }
 }
 
 
