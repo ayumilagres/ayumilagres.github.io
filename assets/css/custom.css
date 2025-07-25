@@ -3,98 +3,109 @@
 
 body {
   font-family: 'Open Sans', sans-serif;
-  background-color: #fbf6f0;  /* warmer ivory */
-  color: #3e2f23;             /* rich espresso brown */
+  background-color: #faf6f2;  /* Creamy neutral */
+  color: #2e2e2e;
   margin: 0;
   padding: 0;
-  line-height: 1.6;
+  font-size: 1rem;
+  line-height: 1.7;
 }
 
 h1, h2, h3 {
   font-family: 'Playfair Display', serif;
-  color: #5a3e28;             /* deep mocha */
+  color: #2b1f16;  /* Chic dark brown */
   margin-top: 2rem;
-  margin-bottom: 0.5rem;
-  letter-spacing: 0.04em;
-  text-transform: capitalize;
+  margin-bottom: 0.75rem;
 }
 
 h1 {
-  font-size: 2.8rem;
+  font-size: 2.5rem;
   font-weight: 700;
-  border-bottom: 2px solid #d4b996;  /* subtle gold underline */
-  padding-bottom: 0.3rem;
-  max-width: max-content;
+  letter-spacing: 0.02em;
+  border-bottom: 2px solid #e4cfc2;
+  padding-bottom: 0.4rem;
+  display: inline-block;
 }
 
 h2 {
-  font-size: 2.1rem;
+  font-size: 1.8rem;
   font-weight: 600;
-  margin-bottom: 1rem;
-  color: #7e5a3c; /* lighter warm brown */
+  color: #5f4333;
+}
+
+h3 {
+  font-size: 1.4rem;
+  font-weight: 500;
+  color: #6e4a3a;
+}
+
+p {
+  font-size: 1.05rem;
+  margin-bottom: 1.2rem;
+  color: #3d3d3d;
 }
 
 a {
-  color: #b15e42;               /* Rouje signature rusty red */
+  color: #a15c4a; /* Soft terra-cotta */
   text-decoration: none;
-  font-weight: 600;
-  border-bottom: 1.5px solid transparent;
-  transition: border-color 0.3s ease, color 0.3s ease;
+  border-bottom: 1px solid transparent;
+  transition: all 0.2s ease-in-out;
 }
 
 a:hover {
-  color: #d47a52;               /* warmer accent on hover */
-  border-bottom-color: #d47a52;
-  text-decoration: none;
+  color: #d6745b;
+  border-bottom-color: #d6745b;
 }
 
 section {
   max-width: 780px;
   margin: 4rem auto;
-  padding: 3rem 3.5rem;
+  padding: 3rem;
   background-color: #ffffff;
-  box-shadow: 0 8px 20px rgba(196, 168, 141, 0.15);  /* softer, warmer shadow */
-  border-radius: 14px;
-  border: 1.5px solid #f0e6db;  /* soft ivory border for elegance */
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.04);
+  border-radius: 16px;
+  border: 1px solid #f0e8e2;
 }
 
 ul {
-  padding-left: 1.8rem;
-  color: #5a4b3b;  /* medium warm brown */
-  font-weight: 400;
+  padding-left: 1.5rem;
+  margin-top: 0.5rem;
+  color: #4d4036;
 }
 
 li {
-  margin-bottom: 0.7rem;
-  font-size: 1.05rem;
+  margin-bottom: 0.5rem;
 }
 
+/* Contact Buttons – subtle, rounded, editorial */
 .contact-info a {
   display: inline-block;
-  margin-top: 1.2rem;
-  color: #a04a32;
-  background-color: #f8e9dd;       /* light blush */
+  margin-top: 1rem;
+  color: #744c3a;
+  background-color: #f2e6dc;
   padding: 0.5rem 1.1rem;
-  border-radius: 7px;
+  border-radius: 999px;
   font-weight: 600;
-  box-shadow: 0 4px 8px rgba(160, 74, 50, 0.15);
-  transition: all 0.3s ease;
   letter-spacing: 0.05em;
-  text-transform: uppercase;
+  font-size: 0.95rem;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 10px rgba(185, 142, 113, 0.1);
 }
 
 .contact-info a:hover {
-  background-color: #ddb7a0;
-  color: #5a3628;
-  box-shadow: 0 6px 14px rgba(160, 74, 50, 0.3);
+  background-color: #e8d4c8;
+  color: #5a392a;
+  box-shadow: 0 6px 12px rgba(173, 125, 99, 0.15);
 }
 
-/* Add subtle separators for sections for editorial feel */
+/* Section spacing */
 section + section {
   margin-top: 5rem;
-  border-top: 1px solid #f0e6db;
+  border-top: 1px solid #f2e6dc;
   padding-top: 4rem;
 }
 
-/* Optional: Small accent lines under smaller headings*
+/* Make headings subtly editorial */
+h2::after {
+  content: ""
 
