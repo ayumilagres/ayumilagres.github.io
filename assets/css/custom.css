@@ -3,109 +3,70 @@
 
 body {
   font-family: 'Open Sans', sans-serif;
-  background-color: #faf6f2;  /* Creamy neutral */
-  color: #2e2e2e;
+  background-color: #f9f7f4;
+  color: #2c2c2c;
   margin: 0;
   padding: 0;
-  font-size: 1rem;
-  line-height: 1.7;
 }
 
 h1, h2, h3 {
   font-family: 'Playfair Display', serif;
-  color: #2b1f16;  /* Chic dark brown */
-  margin-top: 2rem;
-  margin-bottom: 0.75rem;
+  color: #3c2a1e;
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
 }
 
 h1 {
-  font-size: 2.5rem;
+  font-size: 2.4rem;
   font-weight: 700;
-  letter-spacing: 0.02em;
-  border-bottom: 2px solid #e4cfc2;
-  padding-bottom: 0.4rem;
-  display: inline-block;
 }
 
 h2 {
   font-size: 1.8rem;
-  font-weight: 600;
-  color: #5f4333;
-}
-
-h3 {
-  font-size: 1.4rem;
   font-weight: 500;
-  color: #6e4a3a;
-}
-
-p {
-  font-size: 1.05rem;
-  margin-bottom: 1.2rem;
-  color: #3d3d3d;
 }
 
 a {
-  color: #a15c4a; /* Soft terra-cotta */
+  color: #6f4e37;
   text-decoration: none;
-  border-bottom: 1px solid transparent;
-  transition: all 0.2s ease-in-out;
+  font-weight: 600;
 }
 
 a:hover {
-  color: #d6745b;
-  border-bottom-color: #d6745b;
+  color: #a0522d;
+  text-decoration: underline;
 }
 
 section {
-  max-width: 780px;
+  max-width: 800px;
   margin: 4rem auto;
-  padding: 3rem;
+  padding: 2rem;
   background-color: #ffffff;
-  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.04);
-  border-radius: 16px;
-  border: 1px solid #f0e8e2;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.03);
+  border-radius: 12px;
 }
 
 ul {
   padding-left: 1.5rem;
-  margin-top: 0.5rem;
-  color: #4d4036;
 }
 
 li {
   margin-bottom: 0.5rem;
 }
 
-/* Contact Buttons – subtle, rounded, editorial */
+/* Buttons and contact styling */
 .contact-info a {
   display: inline-block;
   margin-top: 1rem;
-  color: #744c3a;
-  background-color: #f2e6dc;
-  padding: 0.5rem 1.1rem;
-  border-radius: 999px;
-  font-weight: 600;
-  letter-spacing: 0.05em;
-  font-size: 0.95rem;
-  transition: all 0.3s ease;
-  box-shadow: 0 4px 10px rgba(185, 142, 113, 0.1);
+  color: #6f4e37;
+  background-color: #f3e8dc;
+  padding: 0.4rem 0.8rem;
+  border-radius: 5px;
+  transition: all 0.2s ease;
 }
 
 .contact-info a:hover {
-  background-color: #e8d4c8;
-  color: #5a392a;
-  box-shadow: 0 6px 12px rgba(173, 125, 99, 0.15);
+  background-color: #e5d1c0;
 }
 
-/* Section spacing */
-section + section {
-  margin-top: 5rem;
-  border-top: 1px solid #f2e6dc;
-  padding-top: 4rem;
-}
-
-/* Make headings subtly editorial */
-h2::after {
-  content: ""
 
