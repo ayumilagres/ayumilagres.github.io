@@ -2,94 +2,92 @@
 
 body {
   font-family: 'Public Sans', sans-serif;
-  background-color: #fcfaf8; /* Warm Parisian white */
+  background-color: #fdfcfb; /* Light, creamy background */
   color: #2b2b2b;
   margin: 0;
   padding: 0;
-  line-height: 1.7;
+  line-height: 1.75;
+  font-size: 16px;
 }
 
+/* Typography */
 h1, h2, h3 {
   font-family: 'Public Sans', sans-serif;
-  color: #1f1f1f;
+  color: #2c1e1e;
   margin-top: 2rem;
   margin-bottom: 1rem;
-  font-weight: 600;
-  text-transform: none;
-  letter-spacing: 0.4px;
+  font-weight: 500;
+  letter-spacing: 0.3px;
 }
 
 h1 {
-  font-size: 2.2rem;
+  font-size: 2rem;
 }
 
 h2 {
-  font-size: 1.6rem;
+  font-size: 1.4rem;
 }
 
 h3 {
-  font-size: 1.3rem;
+  font-size: 1.15rem;
 }
 
 a {
-  color: #a3394b; /* Muted raspberry */
+  color: #8a4f52; /* Soft mauve */
   text-decoration: none;
   font-weight: 500;
 }
 
 a:hover {
-  color: #801f32;
+  color: #682f32;
   text-decoration: underline;
 }
 
-/* Main content white card */
+/* White box layout */
 section {
-  max-width: 800px;
+  max-width: 740px;
   margin: 4rem auto;
   padding: 3rem;
   background-color: #ffffff;
-  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.04);
-  border-radius: 16px;
-  transition: all 0.3s ease;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.04);
+  border-radius: 18px;
 }
 
-/* List styling */
+/* Lists */
 ul {
   padding-left: 1.5rem;
 }
 
 li {
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.6rem;
 }
 
 /* Contact buttons */
 .contact-info a {
   display: inline-block;
-  margin-top: 1rem;
-  color: #a3394b;
-  background-color: #f4e6e6;
-  padding: 0.5rem 1rem;
-  border-radius: 6px;
-  font-weight: 500;
-  font-size: 0.95rem;
+  margin-top: 1.5rem;
+  color: #8a4f52;
+  background-color: #f8eae8;
+  padding: 0.45rem 1rem;
+  border-radius: 5px;
+  font-size: 0.92rem;
   transition: all 0.3s ease;
 }
 
 .contact-info a:hover {
-  background-color: #ead0d0;
-  color: #801f32;
+  background-color: #eed6d4;
+  color: #682f32;
 }
 
-/* Image/profile styling */
+/* Profile photo */
 img.profile {
   max-width: 150px;
   border-radius: 50%;
-  margin: 1.5rem 0;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.06);
+  margin: 2rem auto 1rem auto;
   display: block;
-  margin-left: auto;
-  margin-right: auto;
+  box-shadow: 0 6px 14px rgba(0,0,0,0.05);
 }
+
 
 
 
