@@ -3,70 +3,98 @@
 
 body {
   font-family: 'Open Sans', sans-serif;
-  background-color: #f9f7f4;
-  color: #2c2c2c;
+  background-color: #fbf6f0;  /* warmer ivory */
+  color: #3e2f23;             /* rich espresso brown */
   margin: 0;
   padding: 0;
+  line-height: 1.6;
 }
 
 h1, h2, h3 {
   font-family: 'Playfair Display', serif;
-  color: #3c2a1e;
-  margin-top: 1.5rem;
+  color: #5a3e28;             /* deep mocha */
+  margin-top: 2rem;
   margin-bottom: 0.5rem;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
 }
 
 h1 {
-  font-size: 2.4rem;
+  font-size: 2.8rem;
   font-weight: 700;
+  border-bottom: 2px solid #d4b996;  /* subtle gold underline */
+  padding-bottom: 0.3rem;
+  max-width: max-content;
 }
 
 h2 {
-  font-size: 1.8rem;
-  font-weight: 500;
+  font-size: 2.1rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  color: #7e5a3c; /* lighter warm brown */
 }
 
 a {
-  color: #6f4e37;
+  color: #b15e42;               /* Rouje signature rusty red */
   text-decoration: none;
   font-weight: 600;
+  border-bottom: 1.5px solid transparent;
+  transition: border-color 0.3s ease, color 0.3s ease;
 }
 
 a:hover {
-  color: #a0522d;
-  text-decoration: underline;
+  color: #d47a52;               /* warmer accent on hover */
+  border-bottom-color: #d47a52;
+  text-decoration: none;
 }
 
 section {
-  max-width: 800px;
+  max-width: 780px;
   margin: 4rem auto;
-  padding: 2rem 3rem;
-  background-color: #ffffff;    /* White box background */
-  box-shadow: 0 0 15px rgba(0, 0, 0, 0.06);  /* subtle shadow */
-  border-radius: 12px;
+  padding: 3rem 3.5rem;
+  background-color: #ffffff;
+  box-shadow: 0 8px 20px rgba(196, 168, 141, 0.15);  /* softer, warmer shadow */
+  border-radius: 14px;
+  border: 1.5px solid #f0e6db;  /* soft ivory border for elegance */
 }
 
 ul {
-  padding-left: 1.5rem;
+  padding-left: 1.8rem;
+  color: #5a4b3b;  /* medium warm brown */
+  font-weight: 400;
 }
 
 li {
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.7rem;
+  font-size: 1.05rem;
 }
 
-/* Buttons and contact styling */
 .contact-info a {
   display: inline-block;
-  margin-top: 1rem;
-  color: #6f4e37;
-  background-color: #f3e8dc;
-  padding: 0.4rem 0.8rem;
-  border-radius: 5px;
-  transition: all 0.2s ease;
+  margin-top: 1.2rem;
+  color: #a04a32;
+  background-color: #f8e9dd;       /* light blush */
+  padding: 0.5rem 1.1rem;
+  border-radius: 7px;
+  font-weight: 600;
+  box-shadow: 0 4px 8px rgba(160, 74, 50, 0.15);
+  transition: all 0.3s ease;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
 }
 
 .contact-info a:hover {
-  background-color: #e5d1c0;
+  background-color: #ddb7a0;
+  color: #5a3628;
+  box-shadow: 0 6px 14px rgba(160, 74, 50, 0.3);
 }
 
+/* Add subtle separators for sections for editorial feel */
+section + section {
+  margin-top: 5rem;
+  border-top: 1px solid #f0e6db;
+  padding-top: 4rem;
+}
+
+/* Optional: Small accent lines under smaller headings*
 
