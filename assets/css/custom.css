@@ -59,15 +59,15 @@ a:hover {
   flex-wrap: wrap;
 }
 
-/* Profile photo styling */
+/* Profile photo as a neat square */
 .profile-photo {
-  flex-shrink: 0;
-  width: 140px;
-  height: 140px;
-  border-radius: 50%;
+  width: 130px;
+  height: 130px;
   object-fit: cover;
-  border: 4px solid #c94f59; /* Rouje rose border */
-  box-shadow: 0 2px 8px rgba(201, 79, 89, 0.25);
+  border-radius: 4px; /* subtle rounding, can be 0 if you want perfect square */
+  float: left;
+  margin-right: 2rem;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
 }
 
 /* Text container next to photo */
@@ -85,21 +85,18 @@ li {
   margin-bottom: 0.5rem;
 }
 
-/* Contact links styled as subtle buttons */
+/* Contact info links: subtle color highlight on hover only */
 .contact-info a {
-  display: inline-block;
-  margin-top: 1rem;
-  color: #c94f59;
-  background-color: #f9e7e8;
-  padding: 0.5rem 1rem;
-  border-radius: 8px;
+  color: #8a5d5d; /* Rouje-inspired soft reddish brown */
+  text-decoration: none;
   font-weight: 600;
-  transition: background-color 0.3s ease, color 0.3s ease;
+  transition: color 0.3s ease;
 }
 
 .contact-info a:hover {
-  background-color: #e8c4c6;
-  color: #992f36;
+  color: #b86b6b; /* slightly stronger tone on hover */
+  text-decoration: underline;
+  background-color: transparent; /* no background highlight */
 }
 
 /* Responsive adjustments */
