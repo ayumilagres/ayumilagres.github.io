@@ -8,7 +8,7 @@ This project aims to predict customer responses to a membership offer using mach
 - Recommend the best model to minimize false positives and maximize campaign profitability
 
 ## Dataset
-The dataset was provided as part of the academic project and contains demographic and behavioral data of Superstore customers.
+The dataset was obtained as part of the academic project and contains demographic and behavioral data of Superstore customers.
 
 ## Tools Used
 - R
