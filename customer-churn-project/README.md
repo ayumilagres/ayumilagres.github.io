@@ -1,6 +1,6 @@
 # Customer Churn - Project
 
-This project aims to predict customer responses to a gold membership offer using machine learning models. It was developed as part of the Capstone Project for my Master’s in Business Analytics.
+This project aims to predict customer responses to a gold membership offer using machine learning models. It was developed as part of the Thesis for my Master’s in Business Analytics.
 
 ## Project Goals
 - Identify key factors that influence customer responses
