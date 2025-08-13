@@ -10,21 +10,9 @@ Welcome to my portfolio of work. Here are a few examples of the data and analyti
 
 ---
 
-### 🚜 Mining Productivity Dashboard
-**Tools:** Power BI, SQL, Snowflake  
-**Summary:** Designed dynamic production dashboards for mine operations, integrating forecast and real-time data to improve decision-making.
+### FoodHub Exploratory Data Analysis (EDA)  
+**Tools:** Python, Jupyter Notebook, Google Colab  
+**Summary:** Conducted a detailed exploratory data analysis on FoodHub's customer and order data, highlighting key trends and insights for business strategy.  
+**Link:** [Live project here](https://ayumilagres.github.io/foodhub-eda-project/)
 
----
-
-### 📊 Customer Churn Model
-**Tools:** R, Logistic Regression, Random Forest  
-**Summary:** Developed classification models to predict customer churn with 93.4% F1-score as part of my graduate capstone.
-
----
-
-### 📈 IoT Sensor Health Monitoring
-**Tools:** Python, Pandas, Matplotlib  
-**Summary:** Created an automated analysis pipeline for faulty sensor detection using 1-second time-series data.
-
----
 
