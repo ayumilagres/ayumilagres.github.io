@@ -13,10 +13,9 @@ description: >-
 ############################
 
 navbar-links:
-  About Me: "/aboutme/"
   Projects: "/projects/"
-  Resume: "resume"
-  Contact: "contact"
+  Resume: "/resume/"
+  Contact: "/contact/"
 
 ################
 # --- Avatar --- #
