@@ -149,6 +149,42 @@ a:hover {
   }
 }
 
+/* Projects page styling */
+.projects-hero {
+  padding: 3rem 0 1rem;
+}
+
+.projects-hero h1 {
+  margin-bottom: 0.5rem;
+}
+
+.projects-hero p {
+  margin: 0;
+  color: #555;
+}
+
+.projects-grid .project-card .thumb {
+  height: 160px;
+  border-bottom: 1px solid #eee;
+  background: linear-gradient(135deg, #f2e9ec, #f8f7f5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  color: #a84257;
+  letter-spacing: 0.02em;
+}
+
+.project-card .card-title {
+  font-family: 'Playfair Display', serif;
+  font-weight: 600;
+}
+
+.project-card .btn + .btn {
+  margin-left: 0.4rem;
+}
+
+
 
 
 
